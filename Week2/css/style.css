@@ -8,7 +8,7 @@
 }
 
 body {
-	background-color: white;
+	background-color: #FFFFFF;
 	font-family: "Comic Sans MS", sans-serif;
 }
 
@@ -23,7 +23,7 @@ section {
 }
 
 p {
-	background-color: gray;
+	background-color: #D3D3D3;
 	border: 1px solid #000000;
 	padding: 10px;
 	margin: 15px;
@@ -48,7 +48,7 @@ p {
 
 #header2 {
 	background-color: #B22222;
-	color: white;
+	color: #FFFFFF;
 }
 
 #header3 {
