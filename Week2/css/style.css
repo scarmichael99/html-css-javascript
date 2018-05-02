@@ -1,13 +1,120 @@
+/* css stylesheet for Week2/index.html */
+
+
+/* base styling */
+
 * {
-     margin: 0;
-     padding: 0;
-     box:sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-     background-color: lightblue;
+	background-color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+	text-align:center;
+	font-size: 1.75em;
+}
+
+section {
+	float: left;
+	position: relative;
 }
 
 p {
-     color: white;
+	background-color: gray;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 15px;
+}
+
+
+.header {
+	font-size: 1.5em;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 40%;
+	padding: 5px;
+}
+
+#header1 {
+	background-color: #FFB6C1;
+	color: #000000;
+	
+}
+
+#header2 {
+	background-color: #B22222;
+	color: white;
+}
+
+#header3 {
+	background-color: #FFE4B5;
+	color: #000000;
+}
+
+/* large device styling */
+
+@media (min-width: 992px) {
+
+#s1 {
+	width: 33.33333%;
+}
+
+#s2 {
+	width: 33.33333%;
+}
+
+#s3 {
+	width: 33.33333%;
+}
+
+}
+
+/* tablet styling */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#s1{
+	width: 50%;
+}
+
+#s2 {
+	width: 50%;
+}
+
+#s3 {
+	width: 100%;
+}
+
+#header3 {
+	width: 20%;
+}
+
+}
+
+/* phone styling */
+
+@media (max-width: 767px){
+
+p {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#s1 {
+	width: 100%;
+}
+
+#s2 {
+	width: 100%;
+}
+
+#s3 {
+	width: 100%;
+}
+
 }
