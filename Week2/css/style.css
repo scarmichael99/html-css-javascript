@@ -100,7 +100,7 @@ p {
 
 @media (max-width: 767px) or (max-device-width: 767px){
 
-p {
+body {
 	margin-left: 10%;
 	margin-right: 10%;
 }
