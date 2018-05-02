@@ -8,7 +8,7 @@
 }
 
 body {
-	background-color: #FFFFFF;
+	background-color: #FFFFFF; /* White */
 	font-family: "Comic Sans MS", sans-serif;
 }
 
@@ -23,12 +23,11 @@ section {
 }
 
 p {
-	background-color: #C0C0C0;
-	border: 1px solid #000000;
+	background-color: #C0C0C0; /* Silver */
+	border: 1px solid #000000; /* Black */
 	padding: 10px;
 	margin: 15px;
 }
-
 
 .header {
 	font-size: 1.5em;
@@ -41,19 +40,19 @@ p {
 }
 
 #header1 {
-	background-color: #FFB6C1;
-	color: #000000;
+	background-color: #FFB6C1; /* LightPink */
+	color: #000000; /* Black */
 	
 }
 
 #header2 {
-	background-color: #B22222;
-	color: #FFFFFF;
+	background-color: #B22222; /* FireBrick */
+	color: #FFFFFF; /* White */
 }
 
 #header3 {
-	background-color: #FFE4B5;
-	color: #000000;
+	background-color: #FFE4B5; /* Mocassin */
+	color: #000000; /* Black */
 }
 
 /* large device styling */
