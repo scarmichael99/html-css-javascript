@@ -4,7 +4,7 @@
 
 ### Week 2
 
-[Menu Assignment] (https://scarmichael99.github.io/html-css-javascript/Week2)
+<a href="https://scarmichael99.github.io/html-css-javascript/Week2">Menu Assignment</a>
 
-[CSS Style Sheet] (https://scarmichael99.github.io/html-css-javascript/Week2/css/stylesheet.css)
+<a href="https://scarmichael99.github.io/html-css-javascript/Week2/css/stylesheet.css">CSS Style Sheet</a>
 
