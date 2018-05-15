@@ -1,9 +1,13 @@
-   body {
+/******* Style Sheet for Week 3 Assignment *******/
+
+body {
   font-size: 16px;
-  color: #000000;
+  color: #000000; /* Black */
   background-color: #DFDCE3; /* Clean */
   font-family: 'Marmelad', sans-serif;
 }
+
+/***** Navbar *****/
 
 #header-nav {
   background-color: #A9A9A9; /* DarkGray */
@@ -11,7 +15,7 @@
 }
 
 .navbar-brand {
-  background-color: c; /* DarkGray */
+  background-color: #A9A9A9; /* DarkGray */
   padding-top: 25px;
 }
 
@@ -36,7 +40,7 @@
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1.5px solid #555555;
+  border: 1.5px solid #555555; /* Darker Gray */
 }
 
 .navbar-header button.navbar-toggle {
@@ -50,37 +54,37 @@ a:hover{
 
 #chicken_button{
   background-color: #F2D388; /* Butter */
-  color:#000000;
+  color: #000000; /* Black */
 }
-
 #chicken_button:hover{
   color: #F2D388; /* Butter */
-  background-color:#000000;
+  background-color: #A9A9A9; /* DarkGray */
 }
 
 #beef_button{
   background-color: #C98474; /* Salmon */
-  color:#FFFFFF;
+  color: #FFFFFF; /* White */
 }
-
 #beef_button:hover{
   color: #C98474; /* Salmon */
-  background-color:#000000;
+  background-color: #A9A9A9; /* DarkGray */
 }
 
 #sushi_button{
   background-color: #A7D2CB; /* Clean */
-  color:#000000;
+  color: #000000; /* Black */
 }
-
 #sushi_button:hover{
   color: #A7D2CB; /* Clean */
-  background-color:#000000;
+  background-color: #A9A9A9; /* DarkGray */
 }
+
+
+/***** Main Page *****/
 
 .container-fluid{
   margin-left: 5%;
-  margin-right:5%;
+  margin-right: 5%;
 }
 
 #title {  /* Our Menu */
@@ -91,7 +95,7 @@ a:hover{
 
 #chicken {
   background-color: #F2D388; /* Butter */
-  color:#000000;
+  color: #000000; /* Black */
   border: 1px solid #000000; /* Black */
   padding: 10px;
   margin-left: 5px;
@@ -111,7 +115,7 @@ a:hover{
 
 #sushi {
   background-color: #A7D2CB; /* Clean */
-  color: #000000;
+  color: #000000; /* Black */
   border: 1px solid #000000; /* Black */
   padding: 10px;
   margin-left: 5px;
@@ -119,6 +123,8 @@ a:hover{
   margin-bottom: 30px;
 }
 
+
+/***** Media Queries *****/
 
 /* Desktop Styling */
 @media (min-width: 1200px) {
