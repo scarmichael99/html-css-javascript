@@ -1,29 +1,32 @@
- body {
+  body {
   font-size: 16px;
   color: #000000;
-  background-color: #ffffff;
-  font-family: "Comic Sans MS", sans-serif;
+  background-color: #DFDCE3; /* Clean */
+  font-family: 'Marmelad', sans-serif;
 }
 
 #header-nav {
   background-color: #A9A9A9; /* DarkGray */
   border-radius: 0;
-  border: 0;
 }
 
 .navbar-brand {
+  background-color: c; /* DarkGray */
   padding-top: 25px;
 }
 
 .navbar-brand h1 { /* Food LLC */
-  color: #000000;
-  font-size: 1.5em;
+  color: #874C62; /* Eggplant */
+  font-family: 'Syncopate', sans-serif;
+  font-size: 1.7em;
   font-weight: bold;
   margin-top: 0;
   margin-left: 0;
   margin-right:0;
   margin-bottom: 0;
   line-height: .75;
+  vertical-align: center;
+  padding-top: 10px;
 }
 
 #nav-list {
@@ -32,21 +35,46 @@
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1.5px solid #000000;
+  border: 1.5px solid #555555;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
 
-#title {  /* Our Menu */
-  font-size: 2em;
+a:hover{
+  text-decoration: none;
 }
 
-#s1 {
-  background-color: #A9A9A9; /* DarkGray */
-  border: 1px solid #000000; /* Black */
-  padding: 10px;
+#chicken_button{
+  background-color: #F2D388; /* Butter */
+  color:#000000;
+}
+
+#chicken_button:hover{
+  color: #F2D388; /* Butter */
+  background-color:#000000;
+}
+
+#beef_button{
+  background-color: #C98474; /* Salmon */
+  color:#FFFFFF;
+}
+
+#beef_button:hover{
+  color: #C98474; /* Salmon */
+  background-color:#000000;
+}
+
+#sushi_button{
+  background-color: #A7D2CB; /* Clean */
+  color:#000000;
+}
+
+#sushi_button:hover{
+  color: #A7D2CB; /* Clean */
+  background-color:#000000;
 }
 
 .container-fluid{
@@ -54,19 +82,40 @@
   margin-right:5%;
 }
 
-#chicken_button{
-  background-color: #FFB6C1; /* LightPink */
-  color:#000000;
+#title {  /* Our Menu */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2em;
 }
 
-#beef_button{
-  background-color: #B22222; /* FireBrick */
-  color:#FFFFFF;
+#chicken {
+  background-color: #F2D388; /* Butter */
+  color:#000000;
+  border: 1px solid #000000; /* Black */
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
 }
 
-#sushi_button{
-  background-color: #FFE4B5; /* Mocassin */
-  color:#000000;
+#beef {
+  background-color: #C98474; /* Salmon */
+  color: #FFFFFF; /* White */
+  border: 1px solid #000000; /* Black */
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+}
+
+#sushi {
+  background-color: #A7D2CB; /* Clean */
+  color: #000000;
+  border: 1px solid #000000; /* Black */
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
 }
 
 
@@ -102,12 +151,6 @@
 
   .navbar-brand {
     padding-top: 10px;
-    height: 80px;
-  }
-
-  .navbar-brand h1 { /* Food, LLC */
-    padding-top: 10px;
-    font-size: 5vw;
   }
 
   #collapsable-nav a { /* button text */
