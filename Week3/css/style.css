@@ -1,4 +1,4 @@
-  body {
+   body {
   font-size: 16px;
   color: #000000;
   background-color: #DFDCE3; /* Clean */
@@ -30,7 +30,8 @@
 }
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.2em;
 }
 
