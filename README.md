@@ -21,6 +21,7 @@
 ### Week 4
 
 <a href="https://scarmichael99.github.io/html-css-javascript/Week4">Javascript Assignment</a>
+
 <a href="https://scarmichael99.github.io/html-css-javascript/Week4/js/script.js">Javascript Code</a>
 
 --------------
@@ -28,5 +29,6 @@
 ### Week 5
 
 <a href="https://scarmichael99.github.io/html-css-javascript/Week5">Final Assignment</a>
+
 <a href="https://scarmichael99.github.io/html-css-javascript/Week5/js/script.js">Javascript Code</a>
 
