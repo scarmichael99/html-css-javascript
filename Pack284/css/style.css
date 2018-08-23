@@ -74,6 +74,11 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+#missionstatement{
+color: #003F87;
+margin: 50px;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
