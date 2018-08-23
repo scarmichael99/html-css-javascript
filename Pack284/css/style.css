@@ -1,1 +1,110 @@
- 
+ nav{
+	background-color: #003F87;	/* Scouting Blue per the style manual */
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.dropdown-menu{
+	background-color: #003F87;
+	border: none;
+}
+
+.dropdown-menu a{
+	color: #FFFFFF;
+}
+
+nav button.navbar-toggler{
+  border: 2px solid #FFFFFF;
+}
+
+#logo{
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+}
+
+#name{
+	text-align: center;
+	vertical-align:;
+	color: #003F87;
+	padding-top: 30px;
+}
+
+h1{
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3em;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+h2{
+	margin-bottom: 0;
+	margin-top: -15px;
+	padding: 0 0 0 0;
+	font-size: 1.5em;
+}
+
+#stripe{ 	/* yellow stripe under navbar */
+	background-color: #FDC116;	/* Cub Scouting Gold per the style manual */
+	height: 15px;
+}
+
+#pack_num{
+	font-family: 'Roboto Slab', serif;
+	font-size: 6em;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#pic{
+	text-align: center;
+}
+
+#pic img{
+	height: 100%;
+	width: 100%;
+	padding: 30px;
+}
+
+body{
+  font-size: 16px;
+  color: #000000;
+  background-color: #D6CEBD; /* Scouting Tan */
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+	#pic img{
+		width: 900px;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#pic img{
+		width: 80%;
+	}
+} 
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  }
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#pic img{
+	display: none;
+	}
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+	#pic img{
+	display: none;
+	}
+}
