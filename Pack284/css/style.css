@@ -89,8 +89,8 @@ body{
 		width: 900px;
 	}
 	#missionstatement{
-  		width: 900px;
-		align: center;
+  		margin-left: 20%;
+		margin-right: 20%;
 	}
 }
 
@@ -101,8 +101,8 @@ body{
 		width: 80%;
 	}
 	#missionstatement{
-  		width: 80%;
-		align: center;
+  		margin-left: 20%;
+		margin-right: 20%;
 	}
 } 
 
