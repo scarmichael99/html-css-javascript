@@ -89,8 +89,7 @@ body{
 		width: 900px;
 	}
 	#missionstatement{
-  		margin: 80px;
-  		margin-top: 0px;
+  		width: 900px;
 }
 }
 
@@ -100,6 +99,9 @@ body{
 	#pic img{
 		width: 80%;
 	}
+	#missionstatement{
+  		width: 80%;
+}
 } 
 
 /********** Small devices only **********/
