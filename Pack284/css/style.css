@@ -107,14 +107,18 @@ body{
 	margin: 50px;
 }
 
-.yellow_header {
+p{
+	margin: 10px;
+}
+
+p.yellow_header {
 	background-color: #FDC116;	/* Cub Scouting Gold */
 	color: #000000; /* Black */
 }
 
-.blue_header{
+p.blue_header{
 	background-color: #003F87;	/* Scouting Blue */
-	color: #000000; /* Black */
+	color: #FFFFFF; /* White */
 }
 
 /********** Large devices only **********/
