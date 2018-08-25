@@ -81,6 +81,11 @@ body{
   font-style: italic;
 }
 
+#oath #law #colors #motto{
+	background-color: #FFFFFF;
+	margin: 50px;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
