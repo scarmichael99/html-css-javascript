@@ -81,6 +81,10 @@ body{
   font-style: italic;
 }
 
+#oathandlawintro{
+	margin: 100px;	
+}	
+
 #oath {
 	background-color: #FFFFFF;
 	margin: 50px;
