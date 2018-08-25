@@ -111,12 +111,14 @@ p{
 	margin: 10px;
 }
 
-p.yellow_header {
+.yellow_header {
+	font-size: 1.5em;
 	background-color: #FDC116;	/* Cub Scouting Gold */
 	color: #000000; /* Black */
 }
 
-p.blue_header{
+.blue_header{
+	font-size: 1.5em;
 	background-color: #003F87;	/* Scouting Blue */
 	color: #FFFFFF; /* White */
 }
