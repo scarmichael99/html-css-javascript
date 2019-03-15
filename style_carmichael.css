@@ -1,0 +1,89 @@
+
+/* This is a template to get you comfortable with some basic CSS commands. 
+Feel free to play around with the settings and see what changes result; that's the best way to learn. 
+If you want, you can just modify this template, but this is only a tiny subset of CSS commands. 
+Feel free to look around on the internet for other commands. 
+A great starting point is https://www.w3schools.com/css/ */
+
+
+body{							/* The code between these brackets applies to the entire page. */
+	background-color: black;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+#top_pic{
+	height: 40px;
+	width: 100%;
+}
+
+
+a:link{							/* This code affects the formatting of links you haven't clicked. */
+	color: orange;
+	text-decoration: none;		/* This gets rid of the lines under the links. I don't like the underlines. */
+}
+a:visited{						/* This code affects the formatting of links you have clicked on. */
+	color: Tomato;							/* This makes the link reddish. */
+}
+
+
+h1{								/* The code between these brackets applies to all h1 headers. */
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+
+}
+
+
+#time_dilation_pic{
+	width: 300px;
+}
+
+#gps_pic{
+	width: 45%;
+}
+
+div{							/* The code between these brackets applies to every div element. */
+	color: black;
+	margin-left: 10%;						/* This code dictates the spacing between divs. */
+	margin-right:10%;						/* Margins can be defined either as a percent of the page or by number of pixels */
+	margin-top: 10px;
+	margin-bottom: 25px;
+	
+	padding-left: 20px;						/* This code dictates the space between the text and the div box. */
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+
+	text-align: left;						/* This code left aligns the text in the div elements. */
+}
+
+
+div h2{							/* The code between these brackets applies to every h2 header inside a div element. */
+	text-align:center;			/* It overwrites the left text alignment in the bracket above. */
+	font-family: 'Orbitron', sans-serif;
+}
+
+.center{						/* This code applies to any element in the class "center". */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#section1{						/* The code between these brackets applies only to elements with the id "section1". */
+	background-color: rgb(215, 244, 242); 	/* This is an example of an RGB color code. An RGB color picker can be found here: */
+}											/* https://www.w3schools.com/colors/colors_rgb.asp */
+
+
+#section2{							/* The code between these brackets applies only to elements with the id "section2". */
+	background-color: Moccasin; 			/* This is an example of a named CSS color. CSS colors can be found here: */
+}											/* https://www.quackit.com/css/css_color_codes.cfm */	
+
+
+#section3{							/* The code between these brackets applies only to elements with the id "section3". */
+	background-color: NavajoWhite;
+}
+
+
+#section4{							/* The code between these brackets applies only to elements with the id "section4". */
+	background-color: #FFDAB9; 				/* This is an example of a hexidecimal color code. */
+}
